@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog版型練習</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<style>
+    :root{
+        --bs-font-sans-serif: system-ui, -apple-system, "Microsoft JhengHei", 微軟正黑體, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+    .bg-cover{
+        background-position: center center;
+        background-size: cover;
+    }
+</style>
+<body>
+    <div class="container">
+        <header class="text-center py-3 border-bottom">
+            <a href="" class="h2 link-dark text-decoration-none">JianWei的Blog</a>
+        </header>
+
+        <!--導覽列-->
+        <div class="overflow-auto py-2">
+            <nav class="nav justify-content-between flex-nowrap text-nowrap">
+                <a href="" class="nav-link link-secondary">首頁</a>
+                <a href="" class="nav-link link-secondary">理財</a>
+                <a href="" class="nav-link link-secondary">設計</a>
+                <a href="" class="nav-link link-secondary">3C</a>
+                <a href="" class="nav-link link-secondary">寵物</a>
+                <a href="" class="nav-link link-secondary">職涯</a>
+                <a href="" class="nav-link link-secondary">旅行</a>
+                <a href="" class="nav-link link-secondary">美食</a>
+            </nav>
+        </div>
+
+        <!--banner-->
+        <div class="p-4 p-md-5 text-white rounded-3 bg-cover" style="background-image: url(https://images.unsplash.com/photo-1496433998859-da21e208bd42?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+            <div class="col-md-6">
+                <h1 class="display-4 fst-italic">自由追求者</h1>
+                <p class="lead my-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel pariatur, odit facilis cumque, amet animi eum dolorem voluptatem mollitia distinctio soluta enim delectus neque? Est magnam voluptate impedit modi repellendus!
+                </p>
+                <p class="lead mb-0"><a href="#" class="text-white">繼續閱讀</a></p>
+            </div>
+        </div>
+
+        <!--卡片-->
+        <div class="row row-cols-1 row-cols-lg-2 mt-4 ">
+            <div class="col mb-3">
+                <div class="card row g-0 flex-row h-100">
+                    <div class="col">
+                        <div class="p-4 d-flex flex-column h-100">
+                            <strong class="d-inline-block mb-2 text-danger">自由</strong>
+                            <h3 class="mb-0">生活不應該是被工作綁架</h3>
+                            <div class="text-muted mb-2">三月二十七日</div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt esse dolores quod</p>
+                            <a href="" class="stretched-link mt-auto">繼續閱讀</a>
+                        </div>
+                    </div>
+                    <div class="col-4 d-none d-lg-block bg-cover" style="background-image: url(https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);"></div>
+                </div>
+            </div>
+            <div class="col mb-3">
+                <div class="card row g-0 flex-row h-100">
+                    <div class="col">
+                        <div class="p-4">
+                            <strong class="d-inline-block mb-2 text-danger">自由</strong>
+                            <h3 class="mb-0">不要成為金錢的奴役</h3>
+                            <div class="text-muted mb-2">三月二十七日</div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt esse dolores quod perspiciatis aliquid explicabo labore repudiandae tenetur itaque.</p>
+                            <a href="" class="stretched-link">繼續閱讀</a>
+                        </div>
+                    </div>
+                    <div class="col-4 d-none d-lg-block bg-cover" style="background-image: url(https://images.unsplash.com/photo-1554672723-60f4d5d5074f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--內容-->
+        <div class="row mt-4">
+            <div class="col-md-8">
+                <article>
+                    <h2>真正的自由不是獨來獨往或隨心所欲，而是生活在健全的社會，並擁有充分的自我主宰能力。</h2>
+                    <p>2024 年三月<a href="">JianWei</a></p>
+                    <p><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="img-fluid"></p>
+                    <p>現代社會有一項鮮明的特徵是，個體都渴望獲得自由。回顧歷史，過往的人們都安分守己，只想扮演好在家庭、部落或國家中的角色。但時至今日，我們總會嚴正拒絕他人強加在我們身上的角色，更大力疾呼自決的重要性。不過，我們對於自由的渴求也僅止於此。究竟你我追求的自由是什麼？為什麼它總是如此難以捉摸？</p>
+                    <p>何謂自由？最佳的切入點莫過於以撒．柏林發人深省的文章──〈自由的兩種概念〉(Two Concepts of Liberty)。他提到，第一種是「消極自由」(negative freedom)，也就是沒有外力的干擾：只要沒有人阻止你做想做的事，那麼你就是自由的。</p>
+                    <p>不過，即使擁有消極自由，也不見得事事能得償所願。孤身一人在荒漠裡，的確擁有絕對的消極自由，不過你也活不久了，沒時間去做任何想做的事。因此，你真正需要的是「積極自由」(positive freedom)，讓你能實現自理想或善盡責任。</p>
+                    <p>柏林說：「人們渴望積極自由，希望成為自己的主人......我的身心是實現人生的工具，而不是服從他人意志的機器。」想要擁有積極自由，成為自己的主人，不單要脫離群體的控制，還需要資源與自制。</p>
+                    <p>若你困在荒漠中，就得設法對外求援，等待救難人員來幫助你脫困。而在一般情況下，人也是至關重要的存在。要打造出自己專屬的人生，需要有良好的教育體系、足以維持生計的資源、舒適像樣的家以及健保等等諸如此類的資源。簡單來說，擁有積極自由的前提是，個體要成為健全社會的一份子，而代價則是你必須遵守法紀而且按時繳稅。</p>
+                    <p>除此之外，個體還需要自制與自覺，才能讓自己不受欲望和衝動所支配，進而善用積極自由去描繪人生藍圖。倘若我們受「天性」或「脫韁的激情」所奴役，那麼就不是自由的。</p>
+                    <p>真正的自由不是獨來獨往或隨心所欲，而是生活在健全的社會，並擁有充分的自我主宰能力。爵士樂手在進行即興演奏時，儼然就是自由的寫照：他們得跟著樂曲的和弦進行與曲式，在既定的結構下隨心所欲地展現技巧。不過，樂手要做出如此精彩絕倫的即興演出，還有兩個關鍵。首先，有那麼多先鋒與大師奠定基礎，才有今日的爵士樂。其次，唯有多年訓練與自我要求，樂手才能養成巧妙的演奏技巧。</p>
+                    <p>因此，若你認為自由就是為所欲為、視他人如無物，那你永遠都無法獲得真正的自由。天下沒有白吃的午餐，自由也是如此：沒有社會後盾、沒有個人努力，那就沒有自由。</p>
+                </article>
+            </div>
+            <div class="col-md-4 d-none d-md-block">
+                <div class="sticky-top" style="top: 20px;">
+                    <div class="p-4 bg-light rounded">
+                        <h4>關於我</h4>
+                        <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In hic ipsum distinctio nemo eius asperiores earum repudiandae laudantium. Quia, soluta? Voluptates quisquam ratione numquam corrupti iste, pariatur deserunt ullam at!</p>
+                    </div>
+                    <div class="p-4">
+                        <h4>封存</h4>
+                        <ol class="list-unstyled">
+                            <li><a href="#">2024年 1月</a></li>
+                            <li><a href="#">2024年 2月</a></li>
+                            <li><a href="#">2024年 3月</a></li>
+                            <li><a href="#">2024年 4月</a></li>
+                            <li><a href="#">2024年 5月</a></li>
+                            <li><a href="#">2024年 6月</a></li>
+                            <li><a href="#">2024年 7月</a></li>
+                            <li><a href="#">2024年 8月</a></li>
+                            <li><a href="#">2024年 9月</a></li>
+                            <li><a href="#">2024年 10月</a></li>
+                        </ol>
+                    </div>
+    
+                    <div class="p-4">
+                        <h4>追蹤我</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="">GitHub</a></li>
+                            <li><a href="">Facebook</a></li>
+                            <li><a href="">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="bg-light border-top py-3 mt-4 text-center">
+        <p>BLOG版型練習</p>
+        <p class="mb-0"><a href="#">Back To Top</a></p>
+    </footer>
+</body>
+</html>
